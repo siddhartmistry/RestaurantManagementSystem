@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.table-status {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.table {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Updated to space-between */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.vacant {
+    background-color: #8aff8a; /* Light green for vacant tables */
+}
+
+.occupied {
+    background-color: #ff8a8a; /* Light red for occupied tables */
+}
+
+.reserved {
+    background-color: #8aa4ff; /* Light blue for reserved tables */
+}
+
+.reserve-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    margin: 5px;
+    justify-content: space-around; /* Adjust as needed */
+    margin-top: 10px; /* Add spacing between the table name and buttons */
+}
